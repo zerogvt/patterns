@@ -43,7 +43,7 @@ function query(target, callback) {
 
 ## HTTP query
 ```
-http_req = require('request')
+const http_req = require('request')
 function post(auth_token, url, payload, callback) {
     let options = {
         method: "POST",
